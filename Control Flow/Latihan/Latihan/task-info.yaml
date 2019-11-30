@@ -1,0 +1,27 @@
+type: output
+custom_name: Latihan
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+        val listNumber = 1.rangeTo(30)
+
+        for (number in listNumber) {
+            // TODO 1
+            if (false) continue
+
+            // TODO 2
+            if (false) break
+
+            // TODO 3
+            val result = 0
+            println("result is $result")
+        }
+    }
+  learner_created: false
+- name: test/output.txt
+  visible: false
+  learner_created: false
+status: Solved
+record: -1

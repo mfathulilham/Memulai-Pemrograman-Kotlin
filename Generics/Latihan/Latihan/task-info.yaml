@@ -1,0 +1,25 @@
+type: edu
+custom_name: Latihan
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    // Coming Soon
+    fun main() {
+        val stringResult = getResult("Kotlin")
+        val intResult = getResult(100)
+
+        // TODO 2
+        println()
+    }
+
+    // TODO 1
+    fun <T> getResult(args: T): Int {
+        return 0
+    }
+  learner_created: false
+- name: test/Tests.kt
+  visible: false
+  learner_created: false
+status: Solved
+record: -1
